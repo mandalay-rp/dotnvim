@@ -13,6 +13,9 @@ require("plugins.vim-fugitive")
 require("plugins.tree-sitter-manager")
 require("plugins.vim-autoformat")
 require("plugins.supertab")
+require("plugins.mason")
+-- require("plugins.lsp-config")
+require("config.lsp")
 
 -- Restore cursor position
 vim.api.nvim_create_autocmd({ "BufReadPost" }, {

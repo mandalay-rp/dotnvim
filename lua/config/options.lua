@@ -1,3 +1,5 @@
+vim.g.mapleader = ","
+
 vim.o.mouse = "" -- disable mouse
 vim.o.nu = true -- line number
 -- vim.o.relativenumber = true -- relative line number

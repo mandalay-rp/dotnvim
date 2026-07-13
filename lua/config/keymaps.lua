@@ -1,9 +1,8 @@
-vim.g.mapleader = ","
-
 local map = vim.api.nvim_set_keymap
 local default_opts = {noremap = true, silent = true}
 
 map("n", " ", ":nohl<CR>", default_opts)
+
 map("n","<F8>" , ":Autoformat<CR>", default_opts)
 
 -- Новая вкладка
