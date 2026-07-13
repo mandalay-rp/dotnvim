@@ -15,6 +15,7 @@ require("plugins.vim-autoformat")
 require("plugins.supertab")
 require("plugins.mason")
 -- require("plugins.lsp-config")
+require("plugins.conform")
 require("config.lsp")
 
 -- Restore cursor position

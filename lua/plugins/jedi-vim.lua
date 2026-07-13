@@ -1,6 +1,6 @@
-vim.pack.add({
-	"https://github.com/davidhalter/jedi-vim"
-})
+-- vim.pack.add({
+-- 	"https://github.com/davidhalter/jedi-vim"
+-- })
 -- vim.g.jedi.completions_enabled = 0
 --
 -- vim.g.jedi.completions_enabled = 0
