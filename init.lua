@@ -16,6 +16,8 @@ require("plugins.supertab")
 require("plugins.mason")
 -- require("plugins.lsp-config")
 require("plugins.conform")
+require("plugins.quickbuf")
+-- require("plugins.telescope")
 require("config.lsp")
 
 -- Restore cursor position

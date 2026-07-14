@@ -15,7 +15,9 @@ require('lualine').setup {
         },
         ignore_focus = {},
         always_divide_middle = true,
-        always_show_tabline = true,
+        always_show_tabline = true, -- When set to true, if you have configured lualine for displaying tabline
+                          -- then tabline will always show. If set to false, then tabline will be displayed
+                          -- only when there are more than 1 tab. (see :h showtabline)
         globalstatus = false,
         refresh = {
             statusline = 1000,
@@ -52,15 +54,13 @@ require('lualine').setup {
         lualine_y = {},
         lualine_z = {}
     },
-    -- tabline = {},
     winbar = {},
     inactive_winbar = {},
     extensions = {},
     tabline = {
-        -- lualine_a = {},
-        lualine_a = {'buffers'},
+        lualine_a = {{'tabs', mode = 1, max_length = vim.o.columns / 2,
+    }},
         lualine_b = {},
-        -- lualine_c = {'filename'},
         lualine_c = {},
         lualine_x = {},
         lualine_y = {},

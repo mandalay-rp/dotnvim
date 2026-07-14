@@ -28,9 +28,21 @@
       "rev": "cf18a662cd5f200361b6fedfb794eed583e075e1",
       "src": "https://github.com/nvim-tree/nvim-tree.lua"
     },
+    "plenary.nvim": {
+      "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
+      "src": "http://github.com/nvim-lua/plenary.nvim"
+    },
+    "quickbuf.nvim": {
+      "rev": "9a70d2ab8513e910bacf037c6dcba4ebbf89cf71",
+      "src": "https://github.com/tjgao/quickbuf.nvim"
+    },
     "supertab": {
       "rev": "8705ae0e43b34339c06328fa6dab24ecaf21aab6",
       "src": "https://github.com/ervandew/supertab"
+    },
+    "telescope.nvim": {
+      "rev": "427b576c16792edad01a92b89721d923c19ad60f",
+      "src": "http://github.com/nvim-telescope/telescope.nvim"
     },
     "tokyonight.nvim": {
       "rev": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6",

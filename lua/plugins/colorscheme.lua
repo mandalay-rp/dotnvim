@@ -5,5 +5,5 @@ vim.pack.add({
 })
 
 -- vim.cmd[[colorscheme catppuccin-nvim]]
--- vim.cmd[[colorscheme jellybeans]]
-vim.cmd[[colorscheme tokyonight-night]]
+vim.cmd[[colorscheme jellybeans]]
+-- vim.cmd[[colorscheme tokyonight-night]]
