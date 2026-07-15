@@ -15,6 +15,7 @@ require("plugins.supertab")
 require("plugins.mason")
 require("plugins.conform")
 require("plugins.ctrlp")
+require("plugins.telescope")
 require("config.lsp")
 
 -- Restore cursor position
