@@ -12,6 +12,10 @@
       "rev": "619363c30309d29ffa631e67c8183f2a72caa373",
       "src": "https://github.com/stevearc/conform.nvim.git"
     },
+    "ctrlp.vim": {
+      "rev": "3739dcd638f457559d5a1ae1e398276175694e4b",
+      "src": "https://github.com/ctrlpvim/ctrlp.vim"
+    },
     "jellybeans.nvim": {
       "rev": "66c6ae6ebd977dcdd386ee0c30557c023c326a37",
       "src": "https://github.com/wtfox/jellybeans.nvim"
@@ -28,21 +32,9 @@
       "rev": "cf18a662cd5f200361b6fedfb794eed583e075e1",
       "src": "https://github.com/nvim-tree/nvim-tree.lua"
     },
-    "plenary.nvim": {
-      "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
-      "src": "http://github.com/nvim-lua/plenary.nvim"
-    },
-    "quickbuf.nvim": {
-      "rev": "9a70d2ab8513e910bacf037c6dcba4ebbf89cf71",
-      "src": "https://github.com/tjgao/quickbuf.nvim"
-    },
     "supertab": {
       "rev": "8705ae0e43b34339c06328fa6dab24ecaf21aab6",
       "src": "https://github.com/ervandew/supertab"
-    },
-    "telescope.nvim": {
-      "rev": "427b576c16792edad01a92b89721d923c19ad60f",
-      "src": "http://github.com/nvim-telescope/telescope.nvim"
     },
     "tokyonight.nvim": {
       "rev": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6",

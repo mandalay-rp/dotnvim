@@ -83,5 +83,5 @@ vim.cmd([[
       :hi link NvimTreeImageFile   Title
   ]])
 
-vim.api.nvim_set_keymap("n", "<F2>", ":NvimTreeToggle<CR>", {silent = true, noremap = true})
-vim.api.nvim_set_keymap("n", "<C-\\>", ":NvimTreeFindFileToggle<CR>", {silent = true, noremap = true})
+vim.keymap.set("n", "<F2>", ":NvimTreeToggle<CR>", {silent = true, noremap = true})
+vim.keymap.set("n", "<C-\\>", ":NvimTreeFindFileToggle<CR>", {silent = true, noremap = true})
