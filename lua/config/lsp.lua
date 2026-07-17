@@ -1,5 +1,5 @@
 -- vim.lsp.enable({"lua_ls", "ruff"})
-vim.lsp.enable({"lua_ls", "ruff"})
+vim.lsp.enable({"lua_ls", "pyright"})
 
 vim.api.nvim_create_autocmd("LspAttach", {
     callback = function(ev)
