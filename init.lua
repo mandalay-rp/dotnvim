@@ -16,6 +16,7 @@ require("plugins.mason")
 require("plugins.conform")
 require("plugins.ctrlp")
 require("plugins.telescope")
+require("plugins.mypy")
 require("config.lsp")
 
 -- Restore cursor position
