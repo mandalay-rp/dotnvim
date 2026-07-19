@@ -15,7 +15,7 @@ require("plugins.supertab")
 require("plugins.mason")
 require("plugins.conform")
 require("plugins.ctrlp")
--- require("plugins.telescope")
+require("plugins.telescope")
 require("config.lsp")
 
 -- Restore cursor position
@@ -25,3 +25,6 @@ vim.api.nvim_create_autocmd({ "BufReadPost" }, {
         vim.api.nvim_exec('silent! normal! g`"zv', false)
     end,
 })
+
+-- New UI opt-in
+require("vim._core.ui2").enable({})
