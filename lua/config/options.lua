@@ -21,7 +21,7 @@ vim.o.hlsearch = true -- highlight search matches
 vim.o.incsearch = true -- show matches as you type
 
 vim.o.signcolumn = "yes" -- always show a sign column
-vim.o.colorcolumn = "100" -- show a column at 100 postition chars
+vim.o.colorcolumn = "79" -- show a column at 100 postition chars
 vim.o.showmatch = true -- highlights matching brackets
 vim.o.cmdheight = 1 -- single line command line
 vim.o.showmode = false -- do not show the mode, instead have it in statusline
