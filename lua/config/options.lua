@@ -77,6 +77,6 @@ vim.o.maxmempattern = 20000 -- increase neovim redraw tolerance
 vim.o.completeopt = "menuone,noinsert,noselect" -- completion options
 vim.o.wildmenu = true -- tab completetion
 vim.o.wildmode = "longest:full,full" -- complete longest common match, full completion list, cycle through with Tab
-vim.o.complete = "w,b,u,t"
+-- vim.o.complete = "w,b,u,t"
 vim.o.updatetime = 300 -- faster completion
 -- vim.o.autocomplete = true
